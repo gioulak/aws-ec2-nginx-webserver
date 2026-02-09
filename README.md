@@ -15,9 +15,6 @@ Live Website:
 - UFW Firewall
 - Linux System Administration
 
-## Architecture
-User → Internet → AWS EC2 Instance → Nginx  Web Server → Static Website
-
 ## ⚙️Deployment Process
 
 ### 1. AWS Infrastructure Setup
@@ -39,11 +36,21 @@ Commands used:
 
 
 ``
+
 sudo apt update && sudo apt upgrade -y
+
+
 sudo apt install nginx -y
+
+
 sudo systemctl enable nginx
+
+
 sudo systemctl start nginx
+
+
 sudo systemctl status nginx 
+
 ``
 
 ### 3. Website Deployment
