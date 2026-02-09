@@ -48,10 +48,10 @@ sudo systemctl status nginx
 - Verified accessibility locally and via public IP:
 
   
-``
+```
 curl http://localhost
 curl http://13.61.24.109
-``
+```
 
 ### 4. Security Hardening
 - Configured UFW firewall
@@ -76,9 +76,9 @@ sudo certbot --nginx -d gioulacloud.dev -d www.gioulacloud.dev
 
 - Added both domains to Nginx server block
 
-``
+```
 server_name gioulavloud.dev www.gioulacloud.dev;
-``
+```
 
 ### 6. Re-enable Cloudflare Proxy
 After verifying that HTTP & HTTPS work internally, i turned on orange cloud for CDN, caching and DDos protection
