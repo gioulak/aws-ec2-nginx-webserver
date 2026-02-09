@@ -5,7 +5,7 @@ Deployed a static website on AWS EC2 with a custom domain, with HTTPS using Let'
 
 ## 🌐Live Deployment
 Live Website: 
-- https://gioulavloud.dev
+- https://gioulacloud.dev
 - https://www.gioulacloud.dev
 
 ## Technologies
