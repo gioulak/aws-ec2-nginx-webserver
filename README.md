@@ -36,6 +36,8 @@ Created an EC2 instance using :
 - Enabled automatic service starup
 
 Commands used:
+
+
 ``
 sudo apt update && sudo apt upgrade -y
 sudo apt install nginx -y
@@ -43,9 +45,12 @@ sudo systemctl enable nginx
 sudo systemctl start nginx
 sudo systemctl status nginx 
 ``
+
 ### 3. Website Deployment
 - Created custom HTML webpage
 - Verified accessibility locally and via public IP:
+
+  
 ``
 curl http://localhost
 curl http://13.61.24.109
@@ -59,10 +64,12 @@ curl http://13.61.24.109
 ### 5. Configure Domain via Cloudflare
 - Domain purchased gioulacloud.dev
 - Cloudflare DNS configuration:
-| Type | Name | Content      | Proxy    |
-| ---- | ---- | ------------ | -------- |
-| A    | @    | 13.61.24.109 | DNS Only |
-| A    | www  | 13.61.24.109 | DNS Only |
+
+  
+| Type  | Name   | Content        | Proxy     |
+| :---- | :----: | :------------: | --------: |
+| A     | @      | 13.61.24.109   | DNS Only  |
+| A     | www    | 13.61.24.109   | DNS Only  |
 
 - Initially i set proxy to DNS only to allow SSL insurance
 
