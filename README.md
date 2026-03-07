@@ -1,4 +1,4 @@
-# AWS EC2 Nginx Web Server Deployment
+# AWS EC2 Nginx Web Server Deployment(cuurently the implementation isnt live)
 
 ## 📌Project Overview
 Deployed a static website on AWS EC2 with a custom domain, with HTTPS using Let's Encrypt and integrates with Cloudflare for CDN.
